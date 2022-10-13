@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\Pay1194.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj",
+        "projectName": "Pay1194.Entity",
+        "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj",
+        "packagesPath": "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MaiVanPhuongVu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj",
+        "projectName": "Pay1194.Persistence",
+        "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj",
+        "packagesPath": "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MaiVanPhuongVu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj": {
+                "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj",
+        "projectName": "Pay1194.Service",
+        "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj",
+        "packagesPath": "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MaiVanPhuongVu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\Pay1194.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\Pay1194.csproj",
+        "projectName": "Pay1194",
+        "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\Pay1194.csproj",
+        "packagesPath": "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MaiVanPhuongVu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj": {
+                "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj"
+              },
+              "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj": {
+                "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
