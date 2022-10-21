@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Pay1194.Service\Pay1194.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\employees\" />
+  </ItemGroup>
+
 </Project>

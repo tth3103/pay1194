@@ -1,0 +1,44 @@
+﻿@model IEnumerable<EmployeeIndexViewModel>
+
+
+@{
+    ViewBag.Title = "Employess";
+}
+
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                   <nav arial-label="breadcrumb">
+                       <ol class="breadcrumb">
+                           <li class="breadcrumb-item">
+                               <a asp-controller="Home" asp-action="Index">Home</a>
+                           </li>
+                           <li class="breadcrumb-item active">
+                               Employee
+                           </li>
+                       </ol>
+                   </nav>
+                   <div class="row">
+                       <div class="col-md-12 table-responsive-md">
+                           <table>
+                               <thead>
+                                   <tr>
+                                        <td>Employee No</td>
+                                        <td>Photo</td>
+                                        <td>Name</td>
+                                        <td>Gender</td>
+                                        <td>Designation</td>
+                                        <td>City</td>
+                                        <td>Joined</td>
+                                        <td>Action</td>
+                                   </tr>
+                               </thead>
+                           </table>
+                       </div>
+                   </div>
+            </div>
+
+        </div>
+    </div>
+</div>

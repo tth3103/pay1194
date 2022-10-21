@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7VTPiKA6hh8qtR5L3PfffpXirtj2G8G1eG4/gcowBD8=",
+  "Hash": "637VyXjjZcILuviXRVXF96ihHvDy0h0SizjwezB0l/o=",
   "Source": "Pay1194",
   "BasePath": "_content/Pay1194",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\wwwroot\\css\\style.css",
+      "SourceId": "Pay1194",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\wwwroot\\",
+      "BasePath": "_content/Pay1194",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\wwwroot\\favicon.ico",
       "SourceId": "Pay1194",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\wwwroot\\images\\Emp.gif",
+      "SourceId": "Pay1194",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\wwwroot\\",
+      "BasePath": "_content/Pay1194",
+      "RelativePath": "images/Emp.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Emp.gif"
     },
     {
       "Identity": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194\\wwwroot\\js\\site.js",
