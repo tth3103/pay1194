@@ -1,0 +1,44 @@
+﻿@model EmployeeDetailViewModel
+
+<div class="col-md-12 grid-margin grid-margin-md-0">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a asp-controller="Employee" asp-action="Index">Employee List</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Detail Employee</li>
+                </ol>
+            </nav><br /><br />
+            <div class="wrap d-flex justify-content-start justify-content-sm-center flex-wrap">
+                <img class="rounded-circle shadow-lg" style="width:300px; height:350px;" src="@Url.Content(Model.ImageUrl)"/>
+                <div class="wrap align-items-center ml-5">
+                    <p class="text-success font-weight-bold" style="font-size:20px;">@Model.FullName</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Role: @Model.Designation</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Gender: @Model.Gender</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Date Of Birth: @Model.DOB.ToString("dd/MM/yyyy")</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Employee No: @Model.EmployeeNo</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Email: @Model.Email</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Phone: @Model.Phone</p>
+                    <br /><br />
+                    <p class="font-weight-bold">Pay & Deduction</p>
+                    <hr style="background-color:crimson"/>
+                    <p class="font-weight-normal">payment method: @Model.PaymentMethod</p>
+                    <p class="font-weight-normal">Student Loan: @Model.StudentLoan</p>
+                    <p class="font-weight-normal">Uninon Member: @Model.UnionMember</p>
+
+                    <br /><br />
+                    <p class="font-weight-bold">Address</p>
+                    <hr style="background-color:crimson" />
+                    <p class="font-weight-normal">@Model.Address</p>
+                    <p class="font-weight-normal">@Model.City</p>
+                    <p class="font-weight-normal">@Model.PostCode</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

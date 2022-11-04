@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Pay1194.Models
 {
-    public class EmployeeCreateViewModel
+    public class EmployeeEditViewModel
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "Employee Number is required")]
@@ -19,16 +19,6 @@ namespace Pay1194.Models
         [RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "Last Name")]
         public string LastName { get; set; }
         [Required, MaxLength(200)]
-        public string FullName
-        {
-
-            get
-            {
-                return FirstName + (string.IsNullOrEmpty(MidleName) ? " " : (" " + (char?)MidleName[0] + ".").ToUpper()) + LastName;
-            }
-
-        }
-
         public string Gender { get; set; }
         [Display(Name = "Photo")]
         public IFormFile ImageUrl { get; set; }

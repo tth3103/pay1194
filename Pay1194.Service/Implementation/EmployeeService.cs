@@ -13,6 +13,10 @@ namespace Pay1194.Service.Implementation
 
     {
         private readonly ApplicationDbContext _context;
+        public EmployeeService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
         public async Task CreateAsync(Employee employee)
         {
