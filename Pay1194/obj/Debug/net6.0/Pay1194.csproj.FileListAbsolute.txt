@@ -7,13 +7,16 @@ C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Pay1194
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Pay1194.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Pay1194.pdb
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Humanizer.dll
+C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -21,6 +24,8 @@ C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microso
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -51,6 +56,7 @@ C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.AssemblyInfoInputs.cache
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.AssemblyInfo.cs
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.csproj.CoreCompileInputs.cache
+C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.RazorAssemblyInfo.cache
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194\obj\Debug\net6.0\Pay1194.RazorAssemblyInfo.cs

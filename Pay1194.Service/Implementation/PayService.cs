@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using Pay1194.Entity;
+using Pay1194.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,15 @@ using System.Threading.Tasks;
 namespace Pay1194.Service.Implementation
 {
     public class PayService : IPayService
+
     {
+        private decimal contractualEarning;
+        public decimal overtimeHours;
+        public readonly ApplicationDbContext _context;
+        public PayService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
         public decimal ContractualEarnings(decimal contractualHours, decimal hoursWorked, decimal hourlyRate)
         {
             throw new NotImplementedException();
@@ -45,29 +54,37 @@ namespace Pay1194.Service.Implementation
             throw new NotImplementedException();
         }
 
-        public decimal OverTimeEarnings(decimal overtimeEarnings, decimal contractualEarnings)
+        public decimal OverTimeEarnings(decimal overtimeRate, decimal overtimeHours)
         {
-            throw new NotImplementedException();
+            return overtimeHours * overtimeRate;
         }
 
         public decimal OverTimeHours(decimal hoursWorked, decimal contractualHours)
         {
-            throw new NotImplementedException();
+            if(hoursWorked <= contractualHours)
+            {
+                overtimeHours = 0.00m;
+            }
+            else
+            {
+                overtimeHours = hoursWorked - contractualHours;
+            }
+            return overtimeHours;
         }
 
         public decimal OverTimerate(decimal hourlyRate)
         {
-            throw new NotImplementedException();
+            return hourlyRate * 1.5m;
         }
 
         public decimal TotalDeduction(decimal tax, decimal nic, decimal studentLoanRepayment, decimal UnionFees)
         {
-            throw new NotImplementedException();
+            return tax + UnionFees + studentLoanRepayment + nic;
         }
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings)
         {
-            throw new NotImplementedException();
+            return overtimeEarnings + contractualEarnings;
         }
     }
 }
