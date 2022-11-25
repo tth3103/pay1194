@@ -21,7 +21,16 @@ namespace Pay1194.Service.Implementation
         }
         public decimal ContractualEarnings(decimal contractualHours, decimal hoursWorked, decimal hourlyRate)
         {
-            throw new NotImplementedException();
+
+            if (hoursWorked < contractualHours)
+            {
+                contractualEarning = hoursWorked * hourlyRate;
+            }
+            else
+            {
+                contractualEarning = contractualHours * hourlyRate;
+            }
+            return contractualEarning;
         }
 
         public Task CreateAsync(PaymentRecord paymentRecord)
