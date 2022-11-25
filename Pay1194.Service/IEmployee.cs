@@ -15,11 +15,10 @@ namespace Pay1194.Service
         Task UpdateAsync(Employee employee);
         Task UpdateAsync(int id);
         Task DeleteAsync(int id);
-        decimal UnionFee(int id);
-        //update 22/11
+        decimal UnionFees(int id);
         decimal StudentLoanRepaymentAmount(int id, decimal totalAmount);
-
-        IEnumerable<Employee> GetAll();
         IEnumerable<SelectListItem> GetAllEmployeesForPayroll();
+        IEnumerable<Employee> GetAll();
+
     }
 }

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7b3334b3-e790-4b11-951d-a87c03456b14": {
+      "ProjectGuid": "7b3334b3-e790-4b11-951d-a87c03456b14",
+      "DisplayName": "Pay1194.Service",
+      "ColorIndex": 0
+    },
+    "75db2df9-83d2-4bda-8a46-1660c2cfd979": {
+      "ProjectGuid": "75db2df9-83d2-4bda-8a46-1660c2cfd979",
+      "DisplayName": "Pay1194",
+      "ColorIndex": 1
+    },
+    "b7503558-8300-4b36-a50d-644f5f1c7829": {
+      "ProjectGuid": "b7503558-8300-4b36-a50d-644f5f1c7829",
+      "DisplayName": "Pay1194.Entity",
+      "ColorIndex": 2
+    },
+    "a63810eb-c34f-4b40-b97e-414b312e1012": {
+      "ProjectGuid": "a63810eb-c34f-4b40-b97e-414b312e1012",
+      "DisplayName": "Pay1194.Persistence",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj": {}
+    "C:\\Users\\Admin\\pay1194-main\\Pay1194.Entity\\Pay1194.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj": {
+    "C:\\Users\\Admin\\pay1194-main\\Pay1194.Entity\\Pay1194.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\pay1194-main\\Pay1194.Entity\\Pay1194.Entity.csproj",
         "projectName": "Pay1194.Entity",
-        "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj",
-        "packagesPath": "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\pay1194-main\\Pay1194.Entity\\Pay1194.Entity.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\pay1194-main\\Pay1194.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MaiVanPhuongVu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,8 +51,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

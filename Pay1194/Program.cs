@@ -12,6 +12,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<IEmployee, EmployeeService>();
+builder.Services.AddScoped<IPayService, PayService>();
+builder.Services.AddScoped<INationalInsuranceService, NationalInsuranceService>();
+builder.Services.AddScoped<ITaxService, TaxService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,5 +35,4 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();

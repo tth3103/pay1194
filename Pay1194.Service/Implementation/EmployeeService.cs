@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Pay1194.Service.Implementation
 {
@@ -56,22 +55,6 @@ namespace Pay1194.Service.Implementation
             await _context.SaveChangesAsync();
         }
 
-        //update 22/11 
-        public decimal UnionFee(int id)
-        {
-            var employee = GetById(id);
-            var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
-            return fee;
-        }
-
-        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
-        {
-            return GetAll().Select(emp => new SelectListItem()
-            {
-                Text = emp.FullName,
-                Value = emp.Id.ToString()
-            });
-        }
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
@@ -98,5 +81,22 @@ namespace Pay1194.Service.Implementation
             }
             return studentLoanAmount;
         }
+
+        public decimal UnionFees(int id)
+        {
+            var employee = GetById(id);
+            var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
+            return fee;
+        }
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            });
+        }
+
+
     }
 }

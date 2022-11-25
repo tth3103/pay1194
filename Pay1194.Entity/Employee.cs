@@ -26,7 +26,6 @@ namespace Pay1194.Entity
         public DateTime DateJoined { get; set; }
         public string Designation { get; set; }
         public string Email { get; set; }
-        //Date 14 -10-2022 - maivu Add Column Phone
         public string Phone { get; set; }
         public string NationalInsuranceNo { get; set; }
         public PaymentMethod PaymentMethod { get; set; }
